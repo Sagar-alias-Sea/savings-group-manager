@@ -19,13 +19,7 @@ A beginner-friendly savings group management app built with Next.js App Router, 
 
 The seed script hashes the password with bcrypt before saving it. Re-running it updates the configured admin record.
 
-## Deploy to Vercel
 
-1. Push this project to a GitHub repository.
-2. Import that repository in Vercel; the Next.js preset is detected automatically.
-3. Set `MONGODB_URI`, `AUTH_SECRET`, `ADMIN_NAME`, `ADMIN_EMAIL`, and `ADMIN_PASSWORD` in Vercel Project Settings for Production (and Preview if needed). Use a long random `AUTH_SECRET` and restrict Atlas network access appropriately.
-4. Deploy. Run `npm run seed:admin` once with production environment variables to create the admin account. You can use a trusted local terminal with the production variables or a CI job; do not commit them.
-5. Open the deployed `/login` route.
 
 ## Features
 
